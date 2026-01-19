@@ -7,7 +7,7 @@ Live app: (https://emotion-recogn.streamlit.app/)
 
 
 ### App Screenshot
-![Facial Emotion Recognition Demo](demo-screenshot.png)
+!(demo-screenshot.png)
 
 ## Features
 - Upload your own photo (JPG/PNG) or select from pre-loaded sample images
