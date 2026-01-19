@@ -1,15 +1,36 @@
-📌 Overview
+# Facial Emotion Recognition Web App
 
-This project implements a real-time facial emotion recognition system. It detects faces from live video or a webcam feed and classifies emotions into eight categories:
+A simple and interactive web application that detects facial emotions from uploaded images or sample photos using **DeepFace** and **OpenCV**. Built with **Streamlit** for an easy-to-use interface.
+## Demo
 
-Surprise, Happiness, Anger, Disgust, Contempt, Sadness, Fear, and Neutral
+Live app: (https://emotion-recogn.streamlit.app/)
 
-Face Detection: OpenCV Haar Cascade (fast + lightweight)
 
-Emotion Recognition: FER library (CNN trained on FER2013 dataset)
+### App Screenshot
+![Facial Emotion Recognition Demo](demo-screenshot.png)
 
-Contempt: Custom rule-based heuristic (mouth asymmetry)
+## Features
+- Upload your own photo (JPG/PNG) or select from pre-loaded sample images
+- Real-time facial emotion detection (happy, sad, angry, neutral, surprise, etc.)
+- Draws bounding boxes around detected faces with dominant emotion and confidence score
+- Displays full emotion probability distribution for transparency
+- Uses **DeepFace** with **OpenCV** backend for fast and lightweight inference
+- Clean two-column layout for side-by-side original vs. annotated images
 
-Neutral: Fallback when no other emotion is dominant
+## Demo
+Live app: [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)  
+*(Update this link after deploying on Streamlit Community Cloud)*
 
-Both video file/YouTube input and live webcam mode are supported. Results are logged with timestamps and exported to CSV.
+## Tech Stack
+- **Frontend/UI**: Streamlit
+- **Core Model**: DeepFace (emotion analysis)
+- **Face Detection**: OpenCV backend
+- **Image Processing**: OpenCV + Pillow
+- **Deployment**: Streamlit Community Cloud
+
+## Installation & Local Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/apurvapillai24/fer.git
+   cd fer
