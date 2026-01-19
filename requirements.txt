@@ -1,0 +1,5 @@
+streamlit
+deepface
+opencv-python
+numpy
+pillow
