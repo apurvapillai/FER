@@ -7,7 +7,8 @@ Live app: (https://emotion-recogn.streamlit.app/)
 
 
 ### App Screenshot
-!(sample/demo-screenshot.png)
+![demo image](sample/demo-screenshot.png)
+
 
 ## Features
 - Upload your own photo (JPG/PNG) or select from pre-loaded sample images
@@ -17,9 +18,6 @@ Live app: (https://emotion-recogn.streamlit.app/)
 - Uses **DeepFace** with **OpenCV** backend for fast and lightweight inference
 - Clean two-column layout for side-by-side original vs. annotated images
 
-## Demo
-Live app: [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)  
-*(Update this link after deploying on Streamlit Community Cloud)*
 
 ## Tech Stack
 - **Frontend/UI**: Streamlit
